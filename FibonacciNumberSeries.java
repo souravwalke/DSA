@@ -54,7 +54,7 @@ public class FibonacciNumberSeries {
 			array[i] = array[i-1] + array[i-2];  
 		}
 		
-		return array[input];
+		return array[input-1];
 	}
 
 }
